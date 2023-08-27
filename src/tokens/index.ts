@@ -1,4 +1,4 @@
-import tokens from './ tokens.json'
+import tokens from './tokens.json'
 
 export {
   tokens
