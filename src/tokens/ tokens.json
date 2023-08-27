@@ -1,0 +1,158 @@
+{
+  "global": {
+    "color": {
+      "red": {
+        "300": {
+          "value": "#fca5a5",
+          "type": "color"
+        },
+        "500": {
+          "value": "#ef4444",
+          "type": "color"
+        },
+        "700": {
+          "value": "#b91c1c",
+          "type": "color"
+        }
+      },
+      "blue": {
+        "300": {
+          "value": "#60a5fa",
+          "type": "color"
+        },
+        "500": {
+          "value": "#3b82f6",
+          "type": "color"
+        },
+        "700": {
+          "value": "#1d4ed8",
+          "type": "color"
+        }
+      }
+    },
+    "fontFamily": {
+      "roboto": {
+        "value": "Roboto",
+        "type": "fontFamilies"
+      }
+    },
+    "fontWeight": {
+      "roboto": {
+        "regular": {
+          "value": "400",
+          "type": "fontWeights"
+        },
+        "medium": {
+          "value": "500",
+          "type": "fontWeights"
+        },
+        "bold": {
+          "value": "700",
+          "type": "fontWeights"
+        }
+      }
+    },
+    "lineHeight": {
+      "normal": {
+        "value": "1.5rem",
+        "type": "lineHeights"
+      },
+      " tight": {
+        "value": "1.25rem",
+        "type": "lineHeights"
+      }
+    },
+    "fontSize": {
+      "base": {
+        "value": "1rem",
+        "type": "fontSizes"
+      },
+      "sm": {
+        "value": ".875rem",
+        "type": "fontSizes"
+      }
+    },
+    "typography": {
+      "body": {
+        "value": {
+          "fontFamily": "{fontFamily.roboto}",
+          "fontWeight": "{fontWeight.roboto.medium}",
+          "lineHeight": "{lineHeight.normal}",
+          "fontSize": "{fontSize.base}"
+        },
+        "type": "typography"
+      },
+      "caption": {
+        "value": {
+          "fontFamily": "{fontFamily.roboto}",
+          "fontWeight": "{fontWeight.roboto.regular}",
+          "lineHeight": "{lineHeight. tight}",
+          "fontSize": "{fontSize.sm}"
+        },
+        "type": "typography"
+      }
+    },
+    "dimension": {
+      "button": {
+        "height": {
+          "value": "2.5rem",
+          "type": "dimension"
+        }
+      }
+    },
+    "spacing": {
+      "base": {
+        "value": "1rem",
+        "type": "spacing"
+      },
+      "tight": {
+        "value": ".5rem",
+        "type": "spacing"
+      }
+    },
+    "borderRadius": {
+      "base": {
+        "value": ".25rem",
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": ".5rem",
+        "type": "borderRadius"
+      }
+    },
+    "composition": {
+      "button": {
+        "primary": {
+          "value": {
+            "paddingLeft": "{spacing.base}",
+            "paddingRight": "{spacing.base}",
+            "paddingTop": "{spacing.tight}",
+            "paddingBottom": "{spacing.tight}",
+            "borderRadius": "{borderRadius.base}",
+            "fill": "{color.blue.500}",
+            "typography": "{typography.body}"
+          },
+          "type": "composition"
+        },
+        "secondary": {
+          "value": {
+            "paddingLeft": "{spacing.base}",
+            "paddingRight": "{spacing.base}",
+            "paddingTop": "{spacing.tight}",
+            "paddingBottom": "{spacing.tight}",
+            "borderRadius": "{borderRadius.base}",
+            "fill": "{color.red.500}",
+            "typography": "{typography.body}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
